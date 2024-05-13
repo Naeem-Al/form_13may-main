@@ -1,0 +1,221 @@
+.first_section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F1F38;
+}
+
+.main {
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.left,
+.right {
+    width: 30%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #576373;
+    font-size: 25px;
+    color: white;
+    gap: 10px;
+}
+
+.left_first_image,
+.right_first_image {
+    background-color: #576373;
+}
+
+.login,
+.signup {
+    color: #f6ff00;
+}
+
+.change {
+    color: #BBC02D;
+}
+
+.radio_btm_section {
+    gap: 5px;
+    display: flex;
+}
+
+.llable1,
+.llable2,
+.llable3,
+.rlable1,
+.rlable2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.first_btn,
+.second_btn {
+    background-color: #BBC030;
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.svg1 path {
+    fill: white;
+}
+
+.rsvg_image,
+.lsvg_image {
+    display: flex;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.linput_1,
+.linput_2,
+.linput_3,
+.rinput_1,
+.rinput_2,
+.rinput_3 {
+    padding: 10px 0;
+    background-color: #576373;
+    color: white;
+    font-size: 15px;
+}
+
+.linput_1::placeholder,
+.linput_2::placeholder,
+.linput_3::placeholder,
+.rinput_1::placeholder,
+.rinput_2::placeholder,
+.rinput_3::placeholder {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+}
+
+.svg1 {
+    width: 8%;
+}
+
+.sign_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width:2560px){
+
+.main{
+    width: 100%;
+    height: 80vh;
+}
+.right {
+    width: 25%;
+    height: 60vh;
+
+}
+
+.left {
+    width: 25%;
+    height: 65vh;
+}
+}
+
+    
+
+
+@media screen and (max-width: 1440px) {
+    .main {
+        width: 80%;
+        height:65vh;
+    }
+
+    .right {
+        width: 40%;
+        height: 70vh;
+
+    }
+
+    .left {
+        width: 40%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        width: 80%;
+    }
+
+    .right {
+        width: 40%;
+        height: 70vh;
+    }
+    .left {
+        width: 40%;
+        height: 80vh;
+    }
+    .radio_btm_section{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 80%;
+        height: 80vh;
+    }
+
+
+    .right {
+        width: 40%;
+        height: 70vh;
+
+    }
+
+    .left {
+        width: 40%;
+        height: 80vh;
+    }
+
+    .login_last {
+        font-size: 20px;
+    }
+
+    .radio_btm_section {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        padding: 0;
+    }
+}
